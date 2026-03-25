@@ -9,5 +9,24 @@ package modelo;
  * @author rosam
  */
 public class Empleado {
+    //atributos
+    protected String nombre;
+    protected double salarioBase;
+    
+    public Empleado(String nombre, double salarioBase){
+        this.nombre = nombre;
+        this.salarioBase = salarioBase;
+    }
+    
+    //metodo sera polimorfico
+    
+    public double CalcularPago(){
+        return salarioBase;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+    
     
 }

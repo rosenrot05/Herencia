@@ -9,24 +9,5 @@ package controlador;
  * @author rosam
  */
 public class NominaController {
-    //atributos
-    protected String nombre;
-    protected double salarioBase;
-    
-    public NominaController(String nombre, double salarioBase){
-        this.nombre = nombre;
-        this.salarioBase = salarioBase;
-    }
-    
-    //metodo sera polimorfico
-    
-    public double CalcularPago(){
-        return salarioBase;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-    
     
 }
