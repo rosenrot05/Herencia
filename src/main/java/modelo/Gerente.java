@@ -17,7 +17,7 @@ public class Gerente extends Empleado {
 }
   
     @Override //sobre escritura: 
-    public double calcularPago(){
+    public double CalcularPago(){
         return salarioBase + bono; 
     }
 }
